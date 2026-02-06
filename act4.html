@@ -5,7 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Align, Text Shadow and Box Shadow</title>
     <style>
+        body {
+            text-align: center;
+        }
 
+        #text1 {
+            text-shadow: 2px 3px 4px rgb(4, 201, 255);
+        }
+
+        #indent {
+            text-indent: 50%;
+        }
+
+        #box {
+            width: 300px;
+            height: 100px;
+            background-color: rgb(47, 196, 196);
+            border: 3px solid rgb(28, 44, 80);
+            border-radius: 5px;
+            box-shadow: 0px 7px 5px 0px rgb(10, 54, 74);
+
+        }
+
+       
     </style>
 
 
@@ -16,12 +38,14 @@
 
     <h1 id="text1">We are learning CSS's Text Related Styling</h1>
 
-    <h1 id="box">This is a 'Box' inside our page</h1>
+    <div id="box">This is a 'Box' inside our page</div>
 
     <div>
         <p>This is an example of text-indent</p>
         <p id="indent">This is an example of Text-Indent</p>
     </div>
+
+
 
 
     
